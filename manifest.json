@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "My cool extension",
+  "description": "Coolest collection of movies (tutorial)",
+  "version": "0.1",
+  "author": "Lydia Liu",
+  "browser_action": {   "default_icon": "hello_extensions.png",   "default_title": "Have a good day" },
+  "chrome_url_overrides" : {"newtab": "newtab.html"},
+  "permissions": ["activeTab"]
+}
